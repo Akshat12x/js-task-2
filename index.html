@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS task 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <h2>A simple basic web form where you can do sum of numbers until a negative number comes .<br>The second part of this page is box in which i have displayed about me .<br> The third one is a mini game of guessing the numbers .</h2>
+        <hr>
+
+    <section class="container1">
+    <h2><u>Sum of Numbers</u></h2>
+    <button onclick="calculateSum()">Calculate Sum</button>
+    </section>
+    <hr>
+    <section class="container2">
+    <button onclick="displayInfo()"><u>Display Information</u></button>
+    <div id="info"></div>
+    </section>
+    <hr>
+    <section class="container3">
+    <h1><u>Guess the Number Game</u></h1>
+    <p>Guess a number between 1 and 10:</p>
+    <input type="number" id="guessInput">
+    <button onclick="checkGuess()">Guess</button>
+    <p id="resultMessage"></p></section>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>

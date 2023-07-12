@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(63, 129, 129);
+  text-align: center;
+}
+.container1{
+  border: 15px solid cyan;
+
+}
+.container2{
+  border: 15px solid deepskyblue;
+ width: 98%;
+ height: 300px;
+}
+ 
+#container3{
+  border: 15px solid rgb(34, 80, 128);
+  font-weight: bold;
+  font-style: italic;
+  height: 50px;
+}
